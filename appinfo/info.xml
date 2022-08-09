@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>customapp</id>
+    <name>Custom App</name>
+    <summary>Custom</summary>
+    <description><![CDATA[Custom.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="dkajmakci@charter.ca" >Dren Kajmakci</author>
+    <namespace>CustomApp</namespace>
+    <category>customization</category>
+    <category>dashboard</category>
+    <category>files</category>
+    <category>games</category>
+    <category>tools</category>
+    <category>workflow</category>
+    <bugs>https://github.com/dud32/nextcloud-custom-app/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Custom App</name>
+            <route>customapp.page.index</route>
+        </navigation>
+    </navigations>
+</info>
